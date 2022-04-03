@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
+            "outputFile": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-pt-rPT\\values-pt-rPT.xml",
             "map": [
                 {
                     "source": "C:\\Users\\hp\\.gradle\\caches\\transforms-3\\258f68441ce74a384d9112497167e29a\\transformed\\material-1.5.0\\res\\values-pt-rPT\\values-pt-rPT.xml",

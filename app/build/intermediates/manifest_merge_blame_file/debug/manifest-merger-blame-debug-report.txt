@@ -5,87 +5,112 @@
 5    android:versionName="1.0" >
 6
 7    <uses-sdk
+7-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:5:5-44
 8        android:minSdkVersion="21"
-8-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml
+8-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:5:15-41
 9        android:targetSdkVersion="31" />
-9-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml
+9-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:5:5-44
 10
-11    <application
-11-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:5:5-32:19
-12        android:allowBackup="true"
-12-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:6:9-35
-13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-13-->[androidx.core:core:1.7.0] C:\Users\hp\.gradle\caches\transforms-3\85a4b6c8bc3231eaaf425d8692a95516\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
-14        android:debuggable="true"
-15        android:icon="@mipmap/ic_launcher"
-15-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:7:9-43
-16        android:label="@string/app_name"
-16-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:8:9-41
-17        android:roundIcon="@mipmap/ic_launcher_round"
-17-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:9:9-54
-18        android:supportsRtl="true"
-18-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:10:9-35
-19        android:testOnly="true"
-20        android:theme="@style/Theme.Testmonitor" >
-20-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:11:9-49
-21        <activity
-21-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:12:9-23:20
-22            android:name="one.devya.testmonitor.SplashActivity"
-22-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:13:13-43
-23            android:configChanges="orientation"
-23-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:15:13-50
-24            android:exported="true"
-24-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:17:13-36
-25            android:screenOrientation="portrait"
-25-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:16:13-51
-26            android:theme="@style/SolashScreenThem" >
-26-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:14:13-52
-27            <intent-filter>
-27-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:18:13-22:29
-28                <action android:name="android.intent.action.MAIN" />
-28-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:19:17-69
-28-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:19:25-66
-29
-30                <category android:name="android.intent.category.LAUNCHER" />
-30-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:21:17-77
-30-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:21:27-74
-31            </intent-filter>
-32        </activity>
-33        <activity
-33-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:24:9-31:20
-34            android:name="one.devya.testmonitor.MainActivity"
-34-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:25:13-41
-35            android:configChanges="orientation"
-35-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:28:13-50
-36            android:exported="true"
-36-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:26:13-36
-37            android:screenOrientation="portrait"
-37-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:29:13-51
-38            android:theme="@style/SolashScreenThem" >
-38-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\app\src\main\AndroidManifest.xml:27:13-52
-39        </activity>
-40
-41        <provider
-41-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
-42            android:name="androidx.startup.InitializationProvider"
-42-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
-43            android:authorities="one.devya.testmonitor.androidx-startup"
-43-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
-44            android:exported="false" >
-44-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
-45            <meta-data
-45-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
-46                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-46-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
-47                android:value="androidx.startup" />
-47-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
-48            <meta-data
-48-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hp\.gradle\caches\transforms-3\cdc1265e87ea687c8dd5a1e04782379f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
-49                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-49-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hp\.gradle\caches\transforms-3\cdc1265e87ea687c8dd5a1e04782379f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
-50                android:value="androidx.startup" />
-50-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hp\.gradle\caches\transforms-3\cdc1265e87ea687c8dd5a1e04782379f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
-51        </provider>
-52    </application>
-53
-54</manifest>
+11    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+11-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:6:5-76
+11-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:6:22-73
+12    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+12-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:7:5-76
+12-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:7:22-73
+13    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+13-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:8:5-79
+13-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:8:22-76
+14    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+14-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:9:5-79
+14-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:9:22-76
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:10:5-67
+15-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:10:22-64
+16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+16-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:11:5-79
+16-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:11:22-76
+17
+18    <application
+18-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:13:5-41:19
+19        android:allowBackup="true"
+19-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:14:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.7.0] C:\Users\hp\.gradle\caches\transforms-3\85a4b6c8bc3231eaaf425d8692a95516\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+21        android:debuggable="true"
+22        android:icon="@mipmap/ic_launcher"
+22-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:15:9-43
+23        android:label="@string/app_name"
+23-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:16:9-41
+24        android:roundIcon="@mipmap/ic_launcher_round"
+24-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:17:9-54
+25        android:supportsRtl="true"
+25-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:18:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.Testmonitor" >
+27-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:19:9-49
+28        <activity
+28-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:20:9-22:39
+29            android:name="one.devya.testmonitor.peertopeerwifi"
+29-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:21:13-43
+30            android:exported="true" />
+30-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:22:13-36
+31        <activity
+31-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:23:9-34:20
+32            android:name="one.devya.testmonitor.SplashActivity"
+32-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:24:13-43
+33            android:configChanges="orientation"
+33-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:25:13-48
+34            android:exported="true"
+34-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:26:13-36
+35            android:screenOrientation="portrait"
+35-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:27:13-49
+36            android:theme="@style/SolashScreenThem" >
+36-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:28:13-52
+37            <intent-filter>
+37-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:29:13-33:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:30:17-69
+38-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:30:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:32:17-77
+40-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:32:27-74
+41            </intent-filter>
+42        </activity>
+43        <activity
+43-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:35:9-40:64
+44            android:name="one.devya.testmonitor.MainActivity"
+44-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:36:13-41
+45            android:configChanges="orientation"
+45-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:37:13-48
+46            android:exported="true"
+46-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:38:13-36
+47            android:screenOrientation="portrait"
+47-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:39:13-49
+48            android:theme="@style/SolashScreenThem" />
+48-->C:\Users\hp\Desktop\yassir\fac\3 annee\PFE\projects\testmonit\testmonitorr\app\src\main\AndroidManifest.xml:40:13-52
+49
+50        <provider
+50-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+51            android:name="androidx.startup.InitializationProvider"
+51-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+52            android:authorities="one.devya.testmonitor.androidx-startup"
+52-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+53            android:exported="false" >
+53-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+54            <meta-data
+54-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+55                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+55-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+56                android:value="androidx.startup" />
+56-->[androidx.emoji2:emoji2:1.0.0] C:\Users\hp\.gradle\caches\transforms-3\0a4ac16da09cdf44d04b867828102589\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+57            <meta-data
+57-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hp\.gradle\caches\transforms-3\cdc1265e87ea687c8dd5a1e04782379f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+58                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+58-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hp\.gradle\caches\transforms-3\cdc1265e87ea687c8dd5a1e04782379f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+59                android:value="androidx.startup" />
+59-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\hp\.gradle\caches\transforms-3\cdc1265e87ea687c8dd5a1e04782379f\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+60        </provider>
+61    </application>
+62
+63</manifest>

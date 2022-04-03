@@ -1,14 +1,22 @@
 package one.devya.testmonitor
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
+import androidx.cardview.widget.CardView
+
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        Toast.makeText(this,"welcome knima",Toast.LENGTH_LONG).show()
+        val wifidirectcard : CardView = findViewById(R.id.card4)
+        wifidirectcard.setOnClickListener {
+            val intent = Intent(this,peertopeerwifi::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
