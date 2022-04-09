@@ -3,12 +3,14 @@
     package="one.devya.testmonitor">
 
     <uses-sdk android:minSdkVersion="14" />
+
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
     <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
         android:allowBackup="true"
@@ -18,12 +20,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Testmonitor">
         <activity
+            android:name=".ListenActivity"
+            android:exported="false"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ChildActivity"
+            android:exported="false"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ParentActivity"
+            android:exported="false"
+            android:configChanges="orientation"
+            android:screenOrientation="portrait"/>
+        <activity
             android:name=".peertopeerwifi"
             android:exported="true" />
         <activity
             android:name=".SplashActivity"
-            android:configChanges="orientation"
             android:exported="true"
+            android:configChanges="orientation"
             android:screenOrientation="portrait"
             android:theme="@style/SolashScreenThem">
             <intent-filter>
@@ -37,7 +54,7 @@
             android:configChanges="orientation"
             android:exported="true"
             android:screenOrientation="portrait"
-            android:theme="@style/SolashScreenThem"></activity>
+            android:theme="@style/SolashScreenThem" />
     </application>
 
 </manifest>

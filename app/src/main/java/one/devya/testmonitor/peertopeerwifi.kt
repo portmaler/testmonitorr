@@ -1,6 +1,7 @@
 package one.devya.testmonitor
 
 
+import android.Manifest
 import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
@@ -24,11 +25,25 @@ import java.net.ServerSocket
 import java.net.Socket
 import java.util.concurrent.Executors
 import kotlin.properties.Delegates
+import com.google.android.material.snackbar.Snackbar
+
+import android.content.pm.PackageManager
+
+import androidx.core.app.ActivityCompat
+
+import android.widget.Toast
+
+import androidx.core.content.ContextCompat
+
+
+
 
 
 class peertopeerwifi : AppCompatActivity() {
 
     lateinit var wifimanager : WifiManager
+
+    private val PERMISSION_REQUEST_CODE = 1
 
     var btnOnOff : Button? = null
     var btnDiscover : Button? = null
@@ -44,12 +59,12 @@ class peertopeerwifi : AppCompatActivity() {
 
 
 
-    private var manager: WifiP2pManager by Delegates.notNull()
-    private var channel: WifiP2pManager.Channel by Delegates.notNull()
-    //private lateinit var manager : WifiP2pManager
-    //private lateinit var channel : WifiP2pManager.Channel
+    //private var manager: WifiP2pManager by Delegates.notNull()
+    //private var channel: WifiP2pManager.Channel by Delegates.notNull()
+    private lateinit var manager : WifiP2pManager
+    private lateinit var channel : WifiP2pManager.Channel
     private lateinit var receiver : BroadcastReceiver
-    lateinit var intentFilter : IntentFilter
+    private val intentFilter = IntentFilter()
     private val peers = mutableListOf<WifiP2pDevice>()
     private val deviceArray = mutableListOf<WifiP2pDevice>()
     private val deviceNameArray = mutableListOf<String>()
@@ -73,28 +88,25 @@ class peertopeerwifi : AppCompatActivity() {
         connectionStatus = findViewById<TextView>(R.id.connectionStatus)
         writeMsg = findViewById<EditText>(R.id.writeMsg)
 
+        manager = getSystemService(Context.WIFI_P2P_SERVICE) as WifiP2pManager
+        channel = manager.initialize(this, mainLooper, null)
+
         wifimanager =  applicationContext.getSystemService(Context.WIFI_SERVICE) as WifiManager
-        manager = (getSystemService(Context.WIFI_P2P_SERVICE) as WifiP2pManager?)!!
-        channel = manager?.initialize(this, mainLooper, null)
         receiver = WiFiDirectBroadcastReceiver(manager,channel,this)
+
+
 
         channel?.also { channel ->
             receiver = manager?.let { WiFiDirectBroadcastReceiver(it, channel, this) }
         }
 
-        intentFilter = IntentFilter()
+
         intentFilter.addAction(WifiP2pManager.WIFI_P2P_STATE_CHANGED_ACTION)
         intentFilter.addAction(WifiP2pManager.WIFI_P2P_PEERS_CHANGED_ACTION)
         intentFilter.addAction(WifiP2pManager.WIFI_P2P_CONNECTION_CHANGED_ACTION)
         intentFilter.addAction(WifiP2pManager.WIFI_P2P_THIS_DEVICE_CHANGED_ACTION)
 
 
-        /*intentFilter = IntentFilter().apply {
-            addAction(WifiP2pManager.WIFI_P2P_STATE_CHANGED_ACTION)
-            addAction(WifiP2pManager.WIFI_P2P_PEERS_CHANGED_ACTION)
-            addAction(WifiP2pManager.WIFI_P2P_CONNECTION_CHANGED_ACTION)
-            addAction(WifiP2pManager.WIFI_P2P_THIS_DEVICE_CHANGED_ACTION)
-        }*/
     }
 
     val peerListListener = WifiP2pManager.PeerListListener { peerList ->
@@ -117,7 +129,7 @@ class peertopeerwifi : AppCompatActivity() {
             // If an AdapterView is backed by this data, notify it
             // of the change. For instance, if you have a ListView of
             // available peers, trigger an update.
-         //   //(listAdapter as WiFiPeerListAdapter).notifyDataSetChanged()
+           // (adapter as WiFiPeerListAdapter).notifyDataSetChanged()
 
             // Perform any other updates needed based on the new list of
             // peers connected to the Wi-Fi P2P network.
@@ -160,6 +172,16 @@ class peertopeerwifi : AppCompatActivity() {
 
     private fun exqListener() {
         btnOnOff?.setOnClickListener {
+
+            if (!checkPermission()) {
+
+                requestPermission();
+
+            } else {
+
+                Toast.makeText(this@peertopeerwifi,"Permession already granted ",Toast.LENGTH_SHORT).show()
+
+            }
 
             val intent = Intent(Settings.ACTION_WIFI_SETTINGS)
             startActivityForResult(intent,1)
@@ -234,14 +256,14 @@ class peertopeerwifi : AppCompatActivity() {
 
     override fun onResume() {
         super.onResume()
-        receiver?.also { receiver ->
+        receiver.also { receiver ->
             registerReceiver(receiver, intentFilter)
         }
     }
 
     override fun onPause() {
         super.onPause()
-        receiver?.also { receiver ->
+        receiver.also { receiver ->
             unregisterReceiver(receiver)
         }
     }
@@ -359,6 +381,57 @@ class peertopeerwifi : AppCompatActivity() {
             }
         }
     }
+
+    private fun checkPermission(): Boolean {
+        val result =
+            ContextCompat.checkSelfPermission(applicationContext, Manifest.permission.ACCESS_FINE_LOCATION)
+        return result == PackageManager.PERMISSION_GRANTED
+    }
+
+    private fun requestPermission() {
+        if (ActivityCompat.shouldShowRequestPermissionRationale(
+                this,
+                Manifest.permission.ACCESS_FINE_LOCATION
+            )
+        ) {
+            Toast.makeText(
+                applicationContext,
+                "GPS permission allows us to access location data. Please allow in App Settings for additional functionality.",
+                Toast.LENGTH_LONG
+            ).show()
+        } else {
+            ActivityCompat.requestPermissions(
+                this,
+                arrayOf(Manifest.permission.ACCESS_FINE_LOCATION),
+                PERMISSION_REQUEST_CODE
+            )
+        }
+    }
+
+    override fun onRequestPermissionsResult(
+        requestCode: Int,
+        permissions: Array<out String>,
+        grantResults: IntArray
+    ) {
+        super.onRequestPermissionsResult(requestCode, permissions, grantResults)
+        when (requestCode) {
+            PERMISSION_REQUEST_CODE -> if (grantResults.size > 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
+                Toast.makeText(
+                    applicationContext,
+                    "Permission Granted, Now you can access location data.",
+                    Toast.LENGTH_LONG
+                ).show()
+            } else {
+                Toast.makeText(
+                    applicationContext,
+                    "Permission Denied, You cannot access location data.",
+                    Toast.LENGTH_LONG
+                ).show()
+            }
+        }
+    }
+
+
 
 
 

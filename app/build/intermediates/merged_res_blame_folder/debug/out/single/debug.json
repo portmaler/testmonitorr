@@ -1,5 +1,49 @@
 [
     {
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_parent.xml.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\layout\\activity_parent.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_child.xml.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\layout\\activity_child.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_peertopeerwifi.xml.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\layout\\activity_peertopeerwifi.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\drawable_setting.xml.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\drawable\\setting.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_discover_mdns.xml.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\layout\\activity_discover_mdns.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
         "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
@@ -20,24 +64,20 @@
         "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\layout\\listview_item.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
-    },
-    {
-        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
-    },
-    {
         "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
         "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_listen.xml.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\layout\\activity_listen.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\layout_available_children_list.xml.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\layout\\available_children_list.xml"
     },
     {
         "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
@@ -48,20 +88,8 @@
         "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
-    },
-    {
         "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\drawable_baby.png.flat",
         "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\drawable\\baby.png"
-    },
-    {
-        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_peertopeerwifi.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\layout\\activity_peertopeerwifi.xml"
-    },
-    {
-        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\drawable_setting.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\drawable\\setting.xml"
     },
     {
         "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
@@ -80,11 +108,7 @@
         "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\drawable\\parent.xml"
     },
     {
-        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
-        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\layout\\activity_splash.xml"
-    },
-    {
-        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+        "merged": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_discover_address.xml.flat",
+        "source": "C:\\Users\\hp\\Desktop\\yassir\\fac\\3 annee\\PFE\\projects\\testmonit\\testmonitorr\\app\\src\\main\\res\\layout\\activity_discover_address.xml"
     }
 ]

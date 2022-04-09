@@ -35,13 +35,14 @@ class WiFiDirectBroadcastReceiver(
             WifiP2pManager.WIFI_P2P_PEERS_CHANGED_ACTION -> {
                 // Call WifiP2pManager.requestPeers() to get a list of current peers
                 manager?.requestPeers(channel, activity.peerListListener)
+                Toast.makeText(context,"P2P peers changed",Toast.LENGTH_SHORT).show()
             }
             WifiP2pManager.WIFI_P2P_CONNECTION_CHANGED_ACTION -> {
                 // Respond to new connection or disconnections
                 // Connection state changed! We should probably do something about
                 // that.
 
-                manager?.let { manager ->
+                manager.let { manager ->
 
                     val networkInfo = intent.getParcelableExtra(WifiP2pManager.EXTRA_NETWORK_INFO) as NetworkInfo?
 
@@ -51,14 +52,14 @@ class WiFiDirectBroadcastReceiver(
                         // info to find group owner IP
 
                         manager.requestConnectionInfo(channel, activity.connectionListener)
-                    }else
-                    {
+                    }else {
                         activity.connectionStatus?.setText("device disconnected")
                     }
                 }
             }
             WifiP2pManager.WIFI_P2P_THIS_DEVICE_CHANGED_ACTION -> {
                 // Respond to this device's wifi state changing
+
             }
         }
     }

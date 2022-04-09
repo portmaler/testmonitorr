@@ -18,5 +18,19 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
             finish()
         }
+
+        val parentcard : CardView = findViewById(R.id.card1)
+        parentcard.setOnClickListener {
+            val intent = Intent(this,ParentActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
+        val childcard : CardView = findViewById(R.id.card2)
+        childcard.setOnClickListener {
+            val intent = Intent(this,ChildActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
